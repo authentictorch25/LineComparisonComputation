@@ -60,9 +60,12 @@ namespace LineComparison
             {
                 Console.WriteLine("The lines are equal");
             }
-            else
+            if(length2 < length1)
             {
-                Console.WriteLine("They are not equal");
+                Console.WriteLine("line 1 is longer than line 2");
+            }
+            {
+                Console.WriteLine("line 1 is shorter than line 2");
             }
 
 
